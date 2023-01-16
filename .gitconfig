@@ -1,0 +1,17 @@
+[credential]
+helper = store
+
+[pull]
+rebase = true
+
+[receive]
+denyCurrentBranch = warn
+
+[core]
+editor = code --wait
+
+[gpg]
+format = ssh
+
+[commit]
+gpgsign = true
