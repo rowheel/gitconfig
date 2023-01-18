@@ -9,9 +9,4 @@ denyCurrentBranch = warn
 
 [core]
 editor = code --wait
-
-[gpg]
-format = ssh
-
-[commit]
-gpgsign = true
+excludesfile = ~/.gitignore_global

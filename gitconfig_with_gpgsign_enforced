@@ -1,0 +1,18 @@
+[credential]
+helper = store
+
+[pull]
+rebase = true
+
+[receive]
+denyCurrentBranch = warn
+
+[core]
+editor = code --wait
+excludesfile = ~/.gitignore_global
+
+[gpg]
+format = ssh
+
+[commit]
+gpgsign = true
