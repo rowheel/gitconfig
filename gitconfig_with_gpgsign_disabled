@@ -8,5 +8,4 @@ rebase = true
 denyCurrentBranch = warn
 
 [core]
-editor = code --wait
 excludesfile = ~/.gitignore_global
